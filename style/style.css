@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    }
+    header{
+        text-align: center;
+        }
+        nav li{
+            display: inline /*Muestra los elementos en linea horizontal*/;
+        padding: 60px /*Crea espacio de 60px alrededor del texto*/;
+        font-size: 25px /*Cambiamos el tamaño del texto*/
+        }
+        nav a{
+        text-decoration: none; /*Quitamos el subrayado de los enlaces*/
+        color: black; /*Colocamos un color negro a la letra */
+        }
+        nav a:hover{
+        text-decoration: underline; /*Cuando la persona pase el mouse en el enlace , se subrayara el texto */
+        }
+        main{
+
+            background-color: white;
+            color: black;
+            text-align: justify;
+            }
+            main img{
+                width: 500px;  /*Ancho de la imagen*/
+                float: left;   /*Colocamos la imagen a la derecha*/
+                margin-right: 30px;   /*Hacemos un pequeño espacio a la derecha de las imagenes */
+}
+            
